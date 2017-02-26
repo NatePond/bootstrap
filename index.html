@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="Nate Pond" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" /> -->
+    <link rel="stylesheet" type="text/css" href="css/dumb.css">
+</head> 
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Nate Pond</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="index.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+  <script type="text/javascript">
+  (function($){$.fn.easyTabs=function(option){var param=jQuery.extend({fadeSpeed:"fast",defaultContent:1,activeClass:'active'},option);$(this).each(function(){var thisId="#"+this.id;if(param.defaultContent==''){param.defaultContent=1;}
+  if(typeof param.defaultContent=="number")
+  {var defaultTab=$(thisId+" .tabs li:eq("+(param.defaultContent-1)+") a").attr('href').substr(1);}else{var defaultTab=param.defaultContent;}
+  $(thisId+" .tabs li a").each(function(){var tabToHide=$(this).attr('href').substr(1);$("#"+tabToHide).addClass('easytabs-tab-content');});hideAll();changeContent(defaultTab);function hideAll(){$(thisId+" .easytabs-tab-content").hide();}
+  function changeContent(tabId){hideAll();$(thisId+" .tabs li").removeClass(param.activeClass);$(thisId+" .tabs li a[href=#"+tabId+"]").closest('li').addClass(param.activeClass);if(param.fadeSpeed!="none")
+  {$(thisId+" #"+tabId).fadeIn(param.fadeSpeed);}else{$(thisId+" #"+tabId).show();}}
+  $(thisId+" .tabs li").click(function(){var tabId=$(this).find('a').attr('href').substr(1);changeContent(tabId);return false;});});}})(jQuery);
+  </script>
+  <link rel="stylesheet" href="specimen_files/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+
+  <style type="text/css">
+      body{
+      font-family: 'yataghanregular';
+          }
+</style>
+
+<title>Yataghan Regular Specimen</title>
+  
+  
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      $('#container').easyTabs({defaultContent:1});
+    });
+  </script>
+</nav>
+
+<div class="container">
+
+  <div class="row">
+    <div id="about" class="col-lg-7">
+      <img id="Ubu" src="css/images/UbuRoiRedu.svg" class="img-rounded img-responsive pull-left"><br>
+      <h1 style="text-align: justify; font-size: 30px;">About Me!</h1>
+      <h2 id="history"> <p class="col-xs-offset-4">
+        Hello! My name is Nate Pond, a young professional, who is currently studying coding at UNC. My background is in community relations from my experience as a Community Relations Specialist for FEMA to my experience as a Field Manager during the election for Working America AFLCIO. </p>
+        <p class="col-xs-offset-4">I have a large variety of interests on topics raning from skepticism, ethics in journalism, Philosophy, Cyberpunk, Weird fiction, to  Horror. I play guitar. I enjoy Munchkins.</p>
+        <p>Someday I would like to combine my knowledge of the anthropology of economics, media theory, and coding for the purpose of social engineering and facilitating localization. I'm also a practitioner of 'Pataphysics!</p>
+      </h2>
+    </div>
+
+    <div class="hidden-lg  col-sm-6">
+      <div class="col-sm-6">&nbsp;</div>
+    </div>
+
+    <div id="External" class="col-lg-4 col-md-12 col-lg-offset-1">
+      <div class="row">
+        <div>
+            <h3 style="text-align: center">External Resources</h3>
+        </div>
+      </div>
+
+      <div class="row"
+        <div class="col-lg-12">
+            <a href="https://www.linkedin.com/in/nate-pond-64a70ab4/" target="_blank"><img class="icons col-lg-offset-1 col-sm-offset-2 col-xs-offset-2" alt="img-responsive" src="css/images/linkedin-512.png"></a>
+            <a href="http://stackoverflow.com/users/7580331/natepond" target="_blank"><img class="icons col-lg-offset-2 col-sm-offset-2 col-xs-offset-2" alt="img-responsive" src="css/images/icon-stackoverflow.svg"></a>
+            <a href="https://github.com/NatePond" target="_blank"><img class="icons col-lg-offset-2 col-sm-offset-2 col-xs-offset-2" alt="img-responsive" src="css/images/Octocat.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hidden-lg  col-sm-6">
+          <div class="hidden-lg  col-sm-6">&nbsp;</div>
+          <div class="hidden-lg  col-sm-6">&nbsp;</div>
+    </div>
+  </div>
+</div>
+
+<footer class="navbar-fixed-bottom">©Copyright2016 Nate Pond</footer>
