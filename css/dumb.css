@@ -1,18 +1,16 @@
 @font-face {
     font-family: 'yataghanregular';
-    src: url('fonts/yataghan-webfont.eot');
-    src: url('fonts/yataghan-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/yataghan-webfont.woff') format('woff'),
-         url('fonts/yataghan-webfont.ttf') format('truetype'),
-         url('fonts/yataghan-webfont.svg#yataghanregular') format('svg');
+    src: url('https://natepond.github.io/bootstrap/fonts/yataghan-webfont.eot');
+    src: url('https://natepond.github.io/bootstrap/fonts/yataghan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://natepond.github.io/bootstrap/fonts/yataghan-webfont.woff') format('woff'),
+         url('https://natepond.github.io/bootstrap/fonts/yataghan-webfont.ttf') format('truetype'),
+         url('https://natepond.github.io/bootstrap/fonts/yataghan-webfont.svg#yataghanregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
 body {
   background: url("images/background.png"); 
-
 }
 
 #about {
@@ -36,7 +34,7 @@ body {
   margin-left: 20px;
   margin-bottom: 30px;
   text-align: justify;
-
+  line-height: 200%;
 }
 
 .col-sm-1 { 
